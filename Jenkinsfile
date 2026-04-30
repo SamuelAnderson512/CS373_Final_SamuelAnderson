@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        S3_BUCKET = 'samuel-static-site-991727098724'
+        S3_BUCKET = 'samuel-static-site-991727098724-us-east-2-an'
         CLOUDFRONT_DIST_ID = 'EC7ASQ09LCKHT'
     }
 
