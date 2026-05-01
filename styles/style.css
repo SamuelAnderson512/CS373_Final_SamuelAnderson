@@ -1,11 +1,35 @@
-div{
-
-    font-size:5rem;
+@font-face {
+  font-family: myFont;
+  src: url(/resources/LEMONMILK-Medium.otf);
 }
 
-.showcase{
-text-align: center;
-background-color: rgb(160, 129, 129);
-padding-bottom: 1rem; padding-top: 1rem;
+h1{
 
+    font-size:5rem;
+    text-align: center;
+    font-family: myFont;
+}
+
+.container {
+    display: flex;
+      justify-content: center;
+  align-items: center;
+    width: 30rem;
+    height: 20rem;
+  
+}
+
+.container img {
+
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

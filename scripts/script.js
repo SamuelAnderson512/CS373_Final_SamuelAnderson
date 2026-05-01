@@ -11,10 +11,10 @@ const colors = [
 let colorIndex = 0;
 
 setInterval(() => {
-  const divs = document.querySelectorAll("div");
+  const divs = document.querySelectorAll("h1");
 
-  divs.forEach(div => {
-    div.style.color = colors[colorIndex];
+  divs.forEach(h1 => {
+    h1.style.color = colors[colorIndex];
   });
 
   colorIndex = (colorIndex + 1) % colors.length;
