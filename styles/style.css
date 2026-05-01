@@ -1,4 +1,11 @@
 div{
 
-    font-size:10rem;
+    font-size:5rem;
+}
+
+.showcase{
+text-align: center;
+background-color: rgb(160, 129, 129);
+padding-bottom: 1rem; padding-top: 1rem;
+
 }
