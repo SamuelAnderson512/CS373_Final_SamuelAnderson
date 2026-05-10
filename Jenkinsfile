@@ -15,8 +15,7 @@ pipeline {
 
         stage('Deploy to S3') {
             steps {
-                // We use '.' to sync the current directory. 
-                // We exclude the .git folder and the Jenkinsfile so they don't end up on your live website.
+
                 sh "aws s3 sync . s3://${S3_BUCKET} --delete --exclude '.git/*' --exclude 'Jenkinsfile' --region us-east-2"
             }
         }
